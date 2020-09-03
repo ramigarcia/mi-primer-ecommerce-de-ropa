@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/registro.css">
+  <title>Registro | Ecommerce</title>
+</head>
+<body>
+  <header id="initiation">
+    <img src="img/hamburger.svg" alt="" class="hamburger">
+    <img src="img/x.svg" alt="" class="hamburger-x">
+    <nav class="menu-navegacion menu">
+      <ul>
+        <li><a class="elements" href="login.html"><i class="fas fa-sign-in-alt"></i> Inicia Sesión</a></li>
+        <li><a class="elements" href="registro.html"><i class="fab fa-wpforms"></i> Registro</a></li>
+        <!-- <li><a class="elements" href="#initiation"><i class="fas fa-store"></i> Inicio</a></li> -->
+      </ul>
+    </nav>
+  </header>
+  <!-- FORMULARIO -->
+  <form action="check-in.php" method="POST" onsubmit="return validar();">
+    <h1>Crea tu Cuenta</h1>
+    <div class="formulario">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="text" name="apellido" placeholder="Apellido" required>
+      <input type="text" name="usuario" placeholder="Usuario" required>
+      <input type="email" name="email" placeholder="Correo Electronico" required>
+      <input type="password" name="pss" placeholder="Contraseña" required>
+      <button type="submit" class="btn">Crear Cuenta</button>
+    </div>
+  </form>
+  <div class="buttom-f">
+    <a class="iniciar" href="login.html">Iniciar Sesion</a>
+    <!-- <a class="inicio" href="index.php"></a> -->
+  </div>
+  <script src="js/menu.js"></script>
+  <script src="js/validar.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+footer{
+  font-size: 14px;
+}
+
+footer a{color: blue; text-decoration: none;}
+
+.footer{
+  background: #91919160;
+  height: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-media{
+  max-width: 500px;
+  display: inline-block;
+}
+
+.social-media a{
+  margin: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+  footer{
+    background: #91919160;
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+    background: transparent;
+    height: auto;
+  }
+}

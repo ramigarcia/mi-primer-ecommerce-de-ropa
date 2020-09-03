@@ -1,0 +1,43 @@
+
+.hamburger{
+  display: none;
+}
+
+.hamburger-x{
+  display: none;
+}
+
+.menu{
+  height: 55px;
+  background: rgba(0,0,0,0.2);
+  box-shadow: 0 3px 6px;
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu li{
+  margin: 0 15px 0 20px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  padding: 15px 0; 
+}
+
+.menu li .elements{
+  outline: none;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+}
+.menu li .elements:hover {
+  text-shadow: 0 3px 6px rgba(0,0,0,0.8);
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+}
